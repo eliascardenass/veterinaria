@@ -15,6 +15,8 @@ nav{
 section{
     border: 3px solid rgb(0, 0, 0);
     height: 390px ;
+    padding: 2px;
+    margin: 2.5;
 }
 footer{
     border: 3px solid rgb(0, 0, 0);
@@ -43,4 +45,10 @@ article{
     height: 124px ;
     width: 728px;
     float: right;
+}
+nav ul li{
+    border: 3px solid black;
+    width: 100px;
+    display: inline-block;
+    margin-right: 20px;
 }
