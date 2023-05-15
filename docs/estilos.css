@@ -7,6 +7,7 @@ main {
 header{
     border: 3px solid rgb(0, 0, 0);
     height: 100px ;
+    text-align: center;
 }
 nav{
     border: 3px solid rgb(0, 0, 0);
@@ -51,4 +52,13 @@ nav ul li{
     width: 100px;
     display: inline-block;
     margin-right: 20px;
+}
+nav ul{
+    display: flex;
+    justify-content: space-between;
+}
+header img{
+    width: 300px;
+    height: 100px;
+    text-align: center;
 }
